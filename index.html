@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head >
+	<link rel="stylesheet" type="text/css" href="adc.css">
+	<title>Form Registration</title>
+	<style type="text/css">
+		h1{
+			font-family: courier;
+			color: red;
+			text-align: center;
+		}
+	</style>
+</head>
+<body >
+	<h1>Registration Form</h1><br>
+	<form>
+<div class="a" ><label for="userid">User id : <input  style ="color: red" type="text" id="userid" placeholder="16ITR004" /></label><br><br>
+<label  for="password">Password : <input  style ="color: red" type="password" id="password" placeholder="********" /></label><br><br>
+<label for="name">Name :<input style ="color: red" type="text" id="name" placeholder="Adithya N" /></label><br><br>
+<label for="address">Address :<input  type="text" id="address" 
+style = "color: red" placeholder ="Optional"/>  </label><br><br>
+<label  >Country :
+	<select  style ="color: red"  name="select a country">
+	<option selected>(please select a Country)</option>
+	<option>Pakistan</option>
+	<option>Italy</option>
+	<option>Singapore</option>
+	<option>Japan</option>
+	<option>China</option>
+	<option>Dubai</option>
+	<option>Australia</option>
+	<option>India</option>
+	<option>America</option>
+	<option>Africa</option>
+	<option>Malaysia</option>
+	</select> 
+</label><br><br>
+<label  for="zipcode">Zip Code :<input  style ="color: red"  type="text" id="zipcode" placeholder="Enter Code"></label><br><br>
+<label   for = "email">Email :<input  style ="color: red"  type="email" id="email" placeholder="email@domain" =""></label><br><br>
+<p >
+Sex : &nbsp &nbsp	
+<label> &nbsp MALE 
+<input name="howtosite" type="radio" value="male" checked></label>
+<label>&nbsp FEMALE 
+<input name="howtosite" type="radio" value="female"></label>
+<br><br>
+</p>
+<p >Language:&nbsp
+<label >
+<input name="English" type="checkbox" value="english">English&nbsp
+</label>
+<label >
+<input name="nonenglish" type="checkbox" value="nonenglish">NonEnglish
+</label>
+</p>
+<p ><label>About:<br>
+<textarea name="comments" rows="4" cols="36" style ="color: red"  placeholder="Optional"></textarea>
+</label></p>
+<p >
+<input type="submit" value="Submit">
+<input type="reset" value="Clear">
+</p></div>
+</form>
+
+</body>
+</html>

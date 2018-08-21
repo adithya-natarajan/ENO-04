@@ -1,0 +1,13 @@
+body{
+	color: white;
+	background-image: url(d.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	opacity: 1;
+	background-size: 100%;
+
+}
+.a{
+	font-family: vardana ;
+	margin-left:20%;
+}
